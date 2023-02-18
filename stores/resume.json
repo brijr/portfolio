@@ -7,20 +7,20 @@
       "href": "https://tackle.io",
       "years": "2022-2023",
       "description": "As the lead Web Developer and Designer at Tackle, I work on the Marketing Team to manage, maintain and improve the marketing site. My responsibilities vary at Tackle from DevOps, to Design Systems, to bug fixes, and more. I work mostly with Figma, HTML, CSS, JavaScript, Next JS, WordPress, and PHP.",
-      "featuredProjects": {
-        "Marketplace Readiness Review": {
+      "featuredProjects": [
+        {
           "title": "Marketplace Readiness Review",
           "href": "https://readiness-review.vercel.app/",
           "description": "A React application built with Next JS and hosted on Vercel. The application is a tool for Tackle to analyze potential customers and their level of readiness in taking their software to market.",
           "techStack": "React, Next JS, Vercel, Marketo, Tailwind CSS"
         },
-        "State of Cloud Marketplace Interactive Report": {
+        {
           "title": "State of Cloud Marketplace Interactive Report",
           "href": "https://somp.tackle.io/",
           "description": "Created a landing page for the 2023 Tackle State of Cloud Marketplaces using Next JS, Tailwind, and Vercel.",
           "techStack": "Next JS, Vercel, Tailwind CSS"
         }
-      }
+      ]
     },
     {
       "company": "Ampry",
@@ -29,20 +29,20 @@
       "href": "https://ampry.com",
       "years": "2021-2022",
       "description": "Created the founding product design and brand for Ampry. Ampry is an tech start up in Utah focused on Conversion Rate Optimization for hundreds of varying clients. Worked with the Adobe Suite, Figma, Webflow, and Shopify.",
-      "featuredProjects": {
-        "Ampry Website Redesign": {
-          "title": "Ampry Website",
+      "featuredProjects": [
+        {
+          "title": "Ampry Website Redesign",
           "href": "https://ampry.webflow.io",
           "description": "Created a landing page for Ampry using Next JS, Tailwind, and Vercel.",
           "techStack": "Webflow, Shopify, Figma"
         },
-        "Ampry Product Design and Design System": {
+        {
           "title": "Ampry Blog",
           "href": "https://blog.ampry.com",
           "description": "Created a blog for Ampry using Next JS, Tailwind, and Vercel.",
           "techStack": "Figma"
         }
-      }
+      ]
     }
   ]
 }
