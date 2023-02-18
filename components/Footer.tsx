@@ -1,19 +1,21 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
+import icon from '@/public/icon.svg';
 
 const internalLinks = [
-  {
-    name: 'Work',
-    href: '/work',
-  },
-  {
-    name: 'About',
-    href: '/about',
-  },
-  {
-    name: 'Contact',
-    href: '/contact',
-  },
+	{
+		name: 'Work',
+		href: '/work'
+	},
+	{
+		name: 'About',
+		href: '/about'
+	},
+	{
+		name: 'Contact',
+		href: '/contact'
+	}
 ];
 
 const links = [
@@ -40,6 +42,9 @@ export default function Footer() {
 	return (
 		<footer className="slide-in-right text-lg bg-transparent xl:bg-stone-200 my-12 z-40 xl:fixed xl:flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-12 xl:h-full xl:w-1/6">
 			<div className="xl:hidden my-12 bg-stone-800 h-[0.5px] w-1/4"></div>
+			<Link href="/" className="hover:pl-1 transition-all duration-500">
+				<Image src={icon} alt="Keycap with a B on it" className="w-12 mt-6"></Image>
+			</Link>
 			<div>
 				<ul>
 					{internalLinks.map((link) => (

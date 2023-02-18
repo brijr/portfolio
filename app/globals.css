@@ -2,11 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: Helvetica, 'Inter', 'Open Sans', Arial, sans-serif;
+}
+
+.highlight {
+  background-color: whitesmoke;
+  color: #222;
+  padding: 0 .25rem;
+  margin: 0 .25rem;
+}
+
 /* Slide in Right */
 
 .slide-in-right {
-  -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-  animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
+  animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
+}
+
+em {
+  font-style: italic;
+  font-family: 'Baskeville'
 }
 
 @-webkit-keyframes slide-in-right {
