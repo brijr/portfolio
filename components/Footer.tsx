@@ -59,7 +59,7 @@ export default function Footer() {
 			</Link>
 			<div>
 				<ul>
-					{internalLinks.map((link) => (
+					{internalLinks.map((link: { name: string; href: string }) => (
 						<li>
 							<Link className="flex my-2 p-0 items-center group" href={link.href}>
 								<p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">{link.name}</p>
@@ -71,7 +71,7 @@ export default function Footer() {
 			</div>
 			<div>
 				<ul>
-					{links.map((link) => (
+					{links.map((link: { name: string; href: string }) => (
 						<li>
 							<a
 								className="flex my-2 p-0 items-center group"
