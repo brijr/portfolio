@@ -13,8 +13,16 @@ const internalLinks = [
 		href: '/about'
 	},
 	{
-		name: 'Contact',
-		href: '/contact'
+		name: 'Design',
+		href: '/design'
+	},
+	{
+		name: 'Code',
+		href: '/code'
+	},
+	{
+		name: 'Marketing',
+		href: '/marketing'
 	}
 ];
 
@@ -35,6 +43,10 @@ const links = [
 	{
 		name: 'GitHub',
 		href: 'https://github.com/brijr'
+	},
+	{
+		name: 'Dribbble',
+		href: 'https://dribbble.com/brijr'
 	}
 ];
 

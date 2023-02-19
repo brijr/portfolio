@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
 html {
   font-family: Helvetica, 'Inter', 'Open Sans', Arial, sans-serif;
 }
 
 .highlight {
-  background-color: whitesmoke;
-  color: #222;
+  background-color: rgba(198, 198, 198, 0.1);
   padding: 0 .25rem;
   margin: 0 .25rem;
 }
@@ -18,11 +19,6 @@ html {
 .slide-in-right {
   -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
   animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
-}
-
-em {
-  font-style: italic;
-  font-family: 'Baskeville'
 }
 
 @-webkit-keyframes slide-in-right {
