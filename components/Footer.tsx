@@ -73,7 +73,12 @@ export default function Footer() {
 				<ul>
 					{links.map((link) => (
 						<li>
-							<a className="flex my-2 p-0 items-center group" target="_blank" href={link.href}>
+							<a
+								className="flex my-2 p-0 items-center group"
+								target="_blank"
+								rel="noreferrer"
+								href={link.href}
+							>
 								<p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">{link.name}</p>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
