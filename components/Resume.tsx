@@ -21,18 +21,25 @@ export default function Resume() {
 						<div className="mt-6">
 							<p className="text-lg opacity-75 mb-2">Featured Projects</p>
 							<ul>
-								{job.featuredProjects.map((project) => (
-									<li className="mb-2">
-										<a
-											href={project.href}
-											className="text-md transition-all duration-500 hover:ml-4"
-										>
-											&rarr; {project.title}
-										</a>
-										{/* <p className='ml-4'>{project.description}</p> */}
-										<small className="ml-4 opacity-50">Built With: {project.techStack}</small>
-									</li>
-								))}
+								{job.featuredProjects.map(
+									(project: {
+										href: string;
+										title: string;
+										description: string;
+										techStack: string;
+									}) => (
+										<li className="mb-2">
+											<a
+												href={project.href}
+												className="text-md transition-all duration-500 hover:ml-4"
+											>
+												&rarr; {project.title}
+											</a>
+											{/* <p className='ml-4'>{project.description}</p> */}
+											<small className="ml-4 opacity-50">Built With: {project.techStack}</small>
+										</li>
+									)
+								)}
 							</ul>
 						</div>
 					</li>
