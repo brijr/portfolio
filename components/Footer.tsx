@@ -60,7 +60,7 @@ export default function Footer() {
 			<div>
 				<ul>
 					{internalLinks.map((link: { name: string; href: string }) => (
-						<li>
+						<li key={link.name}>
 							<Link className="flex my-2 p-0 items-center group" href={link.href}>
 								<p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">{link.name}</p>
 								<ArrowUpRightIcon className="hidden w-5 h-5 group-hover:inline" strokeWidth="2" />
@@ -72,7 +72,7 @@ export default function Footer() {
 			<div>
 				<ul>
 					{links.map((link: { name: string; href: string }) => (
-						<li>
+						<li key={link.name}>
 							<a
 								className="flex my-2 p-0 items-center group"
 								target="_blank"

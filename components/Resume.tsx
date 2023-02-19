@@ -28,7 +28,7 @@ export default function Resume() {
 										description: string;
 										techStack: string;
 									}) => (
-										<li className="mb-2">
+										<li key={project.title} className="mb-2">
 											<a
 												href={project.href}
 												className="text-md transition-all duration-500 hover:ml-4"
