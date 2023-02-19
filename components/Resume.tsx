@@ -6,7 +6,7 @@ export default function Resume() {
 			<h2 className="text-4xl mb-12 font-semi-bold ">Experience</h2>
 			<ul>
 				{resume.jobs.map((job) => (
-					<li className="mb-12">
+					<li key={job.company} className="mb-12">
 						<div className="mb-4">
 							<a
 								className="text-xl transition-all duration-500 hover:text-blue-300"
