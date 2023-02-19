@@ -21,9 +21,9 @@ export default async function DribbleShots() {
 			<ul className="grid grid-cols-2 gap-2">
 				{data.map(
 					(shot: {
-						title: Key | null | undefined;
-						html_url: string | undefined;
-						images: { normal: string | undefined };
+						title: Key | any | undefined;
+						html_url: any | undefined;
+						images: { normal: any | undefined };
 					}) => (
 						<li key={shot.title}>
 							<a href={shot.html_url} target="_blank">
