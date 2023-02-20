@@ -7,7 +7,7 @@ export default function About() {
 			{/* Intro Section */}
 			<section className="w-full bg-zinc-300 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
-					<h1 className="text-6xl mb-12">
+					<h1 className="text-6xl tracking-in-expand mb-12">
 						About{' '}
 						<span className="block text-2xl opacity-75 leading-tight mt-4">
 							Learn More About Me
@@ -29,7 +29,7 @@ export default function About() {
 						<span className="highlight">usability</span> on the web and in software.
 					</h3>
 
-					<p className='mt-24'>More coming soon ...</p>
+					<p className="mt-24">More coming soon ...</p>
 				</div>
 			</section>
 		</main>

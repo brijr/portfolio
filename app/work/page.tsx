@@ -10,7 +10,7 @@ export default function Work() {
 			{/* Intro Section */}
 			<section className="w-full bg-neutral-500 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
-					<h1 className="text-6xl mb-12">
+					<h1 className="text-6xl mb-12 tracking-in-expand">
 						Work{' '}
 						<span className="block text-2xl opacity-75 leading-tight mt-4">
 							Experience and Projects

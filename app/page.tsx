@@ -10,11 +10,11 @@ import venn from '@/public/venn.png';
 
 export default function Home() {
 	return (
-		<main className="text-white">
+		<main className="text-white ">
 			{/* Intro Section */}
 			<section className="w-full bg-slate-700 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
-					<h1 className="text-6xl mb-12">
+					<h1 className="text-6xl mb-12 tracking-in-expand">
 						Bridger Tower{' '}
 						<span className="block text-2xl opacity-75 leading-tight mt-4">
 							Product Designer / Frontend Developer

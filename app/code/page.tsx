@@ -9,7 +9,7 @@ export default function Code() {
 			{/* Intro Section */}
 			<section className="w-full bg-zinc-800 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
-					<h1 className="text-6xl mb-12">
+					<h1 className="text-6xl tracking-in-expand mb-12">
 						Code{' '}
 						<span className="block text-2xl opacity-75 leading-tight mt-4">
 							Endless Possibilities
