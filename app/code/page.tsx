@@ -98,6 +98,7 @@ export default function Code() {
 									<a href="https://wordpress.org">Wordpress</a> and some{' '}
 									<a href="https://www.php.net/">PHP</a>
 								</li>
+								<li>&rarr;&nbsp; Web Accessability</li>
 								<li>
 									&rarr; &nbsp;
 									<a href="https://shopify.com">Shopify</a> and{' '}
