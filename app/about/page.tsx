@@ -28,6 +28,8 @@ export default function About() {
 						<span className="highlight">aesthetics</span> and{' '}
 						<span className="highlight">usability</span> on the web and in software.
 					</h3>
+
+					<p className='mt-24'>More coming soon ...</p>
 				</div>
 			</section>
 		</main>
