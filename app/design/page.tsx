@@ -32,8 +32,7 @@ export default async function Design() {
 			<section className="w-full bg-slate-300 text-slate-900 lg:p-32 p-6">
 				{/* Thoughts Section */}
 				<div className="lg:max-w-screen-md">
-					<h2 className="text-4xl mb-12 font-semi-bold ">Why Design?</h2>
-					<p className="mb-4">
+					<p className="mb-8 text-2xl">
 						I have made design a major part of my life for years. I constantly strive to improve the
 						world around me through design.
 					</p>
@@ -50,7 +49,7 @@ export default async function Design() {
 						interact with objects and experiences in meaningful ways. Design is everywhere and it
 						helps to create a world that we can enjoy, appreciate and learn from.
 					</p>
-					<p className="mt-4 mb-8 text-xl">
+					<p className="mt-8 mb-8 text-xl pl-4 border-l-2">
 						"Less, but better." <small>Dieter Rams</small>
 					</p>
 				</div>
