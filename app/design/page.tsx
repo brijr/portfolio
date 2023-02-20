@@ -29,11 +29,33 @@ export default async function Design() {
 			</section>
 			{/* Page Content */}
 			<section className="w-full bg-slate-300 text-slate-900 lg:p-32 p-6">
+				{/* Thoughts Section */}
+				<div className="lg:max-w-screen-md">
+					<h2 className="text-4xl mb-12 font-semi-bold ">Why Design?</h2>
+				</div>
+				<div className="lg:max-w-screen-md p-4 md:p-8 mb-12 rounded-xl text-lg bg-slate-200">
+					<p className="mb-4 pb-4 border-b-2 border-b-white text-2xl font-medium">
+						What makes up my design philosophy and process?
+					</p>
+					<ul className="list-item">
+						<li>&rarr; Branding</li>
+						<li>&rarr; Typography</li>
+						<li>&rarr; Color Theory</li>
+						<li>&rarr; Motion Design</li>
+						<li>&rarr; User Experience Design (UX Design)</li>
+						<li>&rarr; Aesthetics</li>
+						<li>&rarr; Design Systems</li>
+						<li>&rarr; Figma and Prototyping</li>
+						<li>&rarr; Wireframing</li>
+						<li>&rarr; Site Architecture</li>
+					</ul>
+				</div>
+				{/* Dribbble section */}
 				<div className="lg:max-w-screen-md">
 					<h3 className="text-4xl mb-6">
 						Recent Designs from <a href="https://dribbble.com/brijr">my Dribbble</a>
 					</h3>
-					<ul className="grid grid-cols-2 gap-2">
+					<ul className="grid grid-cols-2 md:grid-cols-3 gap-2">
 						{data.map(
 							(shot: {
 								title: Key | any | undefined;

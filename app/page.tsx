@@ -21,8 +21,7 @@ export default function Home() {
 						</span>
 					</h1>
 					<h2 className="hidden text-2xl mb-4">
-						Front End Developer :: Product Designer :: Creative Technologist :: Educated Marketer ::
-						Brand Strategist
+						Front End Developer :: Product Designer :: Creative Technologist :: Brand Strategist
 					</h2>
 				</div>
 			</section>
