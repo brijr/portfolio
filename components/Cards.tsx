@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Cards() {
 	return (
-		<section className="grid grid-cols-4 w-full gap-4 my-12">
+		<section className="grid grid-cols-2 lg:grid-cols-4 w-full gap-4 my-12">
 			<Link
 				href="/work"
 				className="w-full h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-slate-200 hover:text-slate-800 border-slate-200 border-2"

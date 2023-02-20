@@ -48,10 +48,10 @@ const links = [
 
 export default function Footer() {
 	return (
-		<footer className="slide-in-right text-lg bg-transparent xl:bg-stone-200 my-12 z-40 xl:fixed xl:flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-12 xl:h-full xl:w-1/6">
-			<div className="xl:hidden my-12 bg-stone-800 h-[0.5px] w-1/4"></div>
+		<footer className="p-8 text-lg bg-transparent xl:bg-stone-200 lg:my-12 z-40 xl:fixed flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-12 xl:h-full xl:w-1/6">
+			<div className="xl:hidden my-6 bg-stone-800 h-[0.5px] w-1/4"></div>
 			<Link href="/" className="hover:pl-1 transition-all duration-500">
-				<Image src={icon} alt="Keycap with a B on it" className="w-12 mt-6"></Image>
+				<Image src={icon} alt="Keycap with a B on it" className="w-12 mt-6 lg:mt-2 mb-8 xl:mb-0"></Image>
 			</Link>
 			<div>
 				<ul>

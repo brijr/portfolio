@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Cards from '@/components/Cards';
 
 // Image Imports
-import cap from '@/public/cap.svg';
 import venn from '@/public/venn.png';
 
 export default function Home() {
@@ -28,7 +27,7 @@ export default function Home() {
 			{/* Page Content */}
 			<section className="w-full bg-slate-800 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
-					<h3 className="text-4xl">
+					<h3 className="text-2xl lg:text-4xl">
 						I am a{' '}
 						<Link className="hover:font-bold transition-all duration-500" href="/design">
 							designer
