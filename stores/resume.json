@@ -37,10 +37,10 @@
           "techStack": "Webflow, Shopify, Figma"
         },
         {
-          "title": "Ampry Blog",
-          "href": "https://blog.ampry.com",
-          "description": "Created a blog for Ampry using Next JS, Tailwind, and Vercel.",
-          "techStack": "Figma"
+          "title": "Ampry Product Design",
+          "href": "https://dribbble.com/shots/16782050-Ampry-2-0-Product-Design",
+          "description": "Created the founding product design and brand for Ampry.",
+          "techStack": "Figma, Design Systems"
         }
       ]
     }

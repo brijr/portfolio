@@ -47,7 +47,7 @@ export default function Resume() {
 			</ul>
 			<a
 				className="w-full mt-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-slate-700 hover:text-slate-200 border-slate-700 border-2"
-				href="https://read.cv"
+				href="https://read.cv/btower"
 				rel="noreferrer"
 				target="_blank"
 			>

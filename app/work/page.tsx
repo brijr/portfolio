@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Resume from '@/components/Resume';
+import Projects from '@/components/Projects';
 
 export default function Work() {
 	return (
@@ -23,8 +24,11 @@ export default function Work() {
 			</section>
 			{/* Page Content */}
 			<section className="w-full bg-neutral-300 text-neutral-800 lg:p-32 p-6">
+				<div className="lg:max-w-screen-md mb-12 lg:mb-24">
+					<Projects />
+				</div>
 				<div className="lg:max-w-screen-md">
-					<Resume></Resume>
+					<Resume />
 				</div>
 			</section>
 		</main>
