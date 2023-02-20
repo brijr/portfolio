@@ -2,11 +2,11 @@
   "jobs": [
     {
       "company": "Tackle",
-      "title": "Lead Web Developer",
+      "title": "Front End Web Developer and Designer",
       "location": "Remote",
       "href": "https://tackle.io",
       "years": "2022-2023",
-      "description": "As the lead Web Developer and Designer at Tackle, I work on the Marketing Team to manage, maintain and improve the marketing site. My responsibilities vary at Tackle from DevOps, to Design Systems, to bug fixes, and more. I work mostly with Figma, HTML, CSS, JavaScript, Next JS, WordPress, and PHP.",
+      "description": "As the lead Web Developer and Designer at Tackle, I work on the Marketing Team to manage, maintain, and improve the marketing site. My responsibilities vary at Tackle from DevOps, to Design Systems, to bug fixes, and more. I work mostly with Figma, HTML, CSS, JavaScript, Next JS, React, Tailwind CSS, WordPress, and PHP.",
       "featuredProjects": [
         {
           "title": "Marketplace Readiness Review",
@@ -24,8 +24,8 @@
     },
     {
       "company": "Ampry",
-      "title": "Founding Product Designer",
-      "location": "Pleasent Grove, UT",
+      "title": "Product Designer",
+      "location": "Pleasant Grove, UT",
       "href": "https://ampry.com",
       "years": "2021-2022",
       "description": "Created the founding product design and brand for Ampry. Ampry is an tech start up in Utah focused on Conversion Rate Optimization for hundreds of varying clients. Worked with the Adobe Suite, Figma, Webflow, and Shopify.",

@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Tackle Cloud GTM Readiness Review",
+      "url": "https://readiness-review.vercel.app",
+      "technology": "Next.js, React, Tailwind, Vercel",
+      "year": 2023
+    },
+    {
+      "name": "SoCal Flights",
+      "url": "https://socal.flights",
+      "technology": "Rapid API, Next.js, React, Tailwind, Vercel",
+      "year": 2023
+    },
+    {
+      "name": "State of Cloud Marketplace 2022 Interactive Report",
+      "url": "https://somp.tackle.io",
+      "technology": "Next.js, React, Tailwind, Vercel",
+      "year": 2022
+    },
+    {
+      "name": "Code Craft ©",
+      "url": "https://codecraft.pro",
+      "technology": "Next.js, React, Tailwind, Vercel",
+      "year": 2022
+    },
+    {
+      "name": "Model of Confidence",
+      "url": "https://modelofconfidence.com",
+      "technology": "Next.js, React, Vercel",
+      "year": 2022
+    },
+    {
+      "name": "Rem Blair",
+      "url": "https://remblair.com",
+      "technology": "Shopify, GraphQL",
+      "year": 2021
+    }
+  ]
+}

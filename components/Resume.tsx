@@ -3,7 +3,7 @@ import resume from '@/stores/resume.json';
 export default function Resume() {
 	return (
 		<>
-			<h2 className="text-4xl mb-12 font-semi-bold ">Experience</h2>
+			<h2 className="text-4xl mb-12 font-semi-bold ">Most Recent Experience</h2>
 			<ul>
 				{resume.jobs.map((job) => (
 					<li key={job.company} className="mb-12">
@@ -45,6 +45,14 @@ export default function Resume() {
 					</li>
 				))}
 			</ul>
+			<a
+				className="w-full mt-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-slate-700 hover:text-slate-200 border-slate-700 border-2"
+				href="https://read.cv"
+				rel="noreferrer"
+				target="_blank"
+			>
+				See the rest of my Resume here. &rarr;
+			</a>
 		</>
 	);
 }

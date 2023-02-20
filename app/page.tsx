@@ -1,6 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+// Components
+import Cards from '@/components/Cards';
+
+// Image Imports
+import cap from '@/public/cap.svg';
+import venn from '@/public/venn.png';
+
 export default function Home() {
 	return (
 		<main className="text-white">
@@ -23,7 +30,7 @@ export default function Home() {
 			<section className="w-full bg-slate-800 lg:p-32 p-6">
 				<div className="lg:max-w-screen-md">
 					<h3 className="text-4xl">
-						My name is Bridger Tower and I am a{' '}
+						I am a{' '}
 						<Link className="hover:font-bold transition-all duration-500" href="/design">
 							designer
 						</Link>
@@ -36,9 +43,27 @@ export default function Home() {
 							marketer
 						</Link>{' '}
 						located in Salt Lake City, Utah. I am passionate about the balance of
-						<span className="highlight">aesthetics</span> and <span className="highlight">usability</span> on
-						the web and in software.
+						<span className="highlight">aesthetics</span> and{' '}
+						<span className="highlight">usability</span> on the web and in software.
 					</h3>
+				</div>
+				<div className="slide-in-bottom lg:max-w-screen-md">
+					<Cards />
+					<h3 className="mb-4">
+						I live for <span>design</span>, <span>code</span>, <span>technology</span>, and{' '}
+						<span>marketing</span>.
+					</h3>
+					<p className="mb-4">
+						As one studied and involved heavily in design, development, and marketing and I seek to
+						bridge the gaps between them.
+					</p>
+					<p>
+						I believe the combination and collaboration of design, code, technology, and marketing
+						leads to powerful products, impactful websites, and further innovation.
+					</p>
+					<div className="my-12 lg:w-3/4">
+						<Image src={venn} alt="Venn diagram of Bridger Tower's Favorite Place" />
+					</div>
 				</div>
 			</section>
 		</main>
