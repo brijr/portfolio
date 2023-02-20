@@ -9,10 +9,6 @@ const internalLinks = [
 		href: '/work'
 	},
 	{
-		name: 'About',
-		href: '/about'
-	},
-	{
 		name: 'Design',
 		href: '/design'
 	},

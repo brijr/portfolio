@@ -39,7 +39,8 @@ export default function Marketing() {
 						and lasting brands that cut through the clutter and drive sustainable growth.
 					</p>
 					<p className="mt-8 mb-8 text-xl pl-4 border-l-2">
-						"Don't find customers for your product, find products for your customer." <small>Seth Godin</small>
+						"Don't find customers for your product, find products for your customer."{' '}
+						<small>Seth Godin</small>
 					</p>
 				</div>
 				<div className="lg:max-w-screen-md p-4 md:p-8 mb-12 rounded-xl text-lg bg-gray-700">
@@ -57,6 +58,16 @@ export default function Marketing() {
 						<li>&rarr; Paid Ads and Organic Traffic</li>
 						<li>&rarr; Advertising Best Practices</li>
 					</ul>
+				</div>
+				<div className="lg:max-w-screen-md">
+					<a
+						className="w-full my-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-zinc-300 hover:text-slate-800 border-zinc-300 border-2"
+						href="https://brijr.medium.com/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						Read some of my thoughts &rarr;
+					</a>
 				</div>
 			</section>
 		</main>
