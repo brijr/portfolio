@@ -43,6 +43,14 @@ export default function Code() {
 					<p className="mt-8 mb-8 text-xl pl-4 border-l-2">
 						"Never stop improving." <small>Lowe's</small>
 					</p>
+					<a
+						className="w-full my-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-zinc-300 hover:text-slate-800 border-zinc-300 border-2"
+						href="https://github.com/brijr"
+						rel="noreferrer"
+						target="_blank"
+					>
+						Visit my GitHub &rarr;
+					</a>
 				</div>
 				<div className="lg:max-w-screen-md p-4 md:p-8 mb-12 rounded-xl text-lg bg-zinc-600">
 					<p className="mb-4 opacity-75 text-2xl font-medium">What makes up my dev tech stack?</p>
