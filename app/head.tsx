@@ -1,3 +1,5 @@
+import Script from 'next/script';
+
 export default function Head() {
 	return (
 		<>
@@ -17,6 +19,25 @@ export default function Head() {
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://btower.dev/" />
 			<meta property="og:image" content="/og.jpg" />
+
+			<Script
+				strategy="afterInteractive"
+				src="https://www.googletagmanager.com/gtag/js?id=G-5K5X5N8BWJ"
+			/>
+			<Script
+				id="google-analytics"
+				strategy="afterInteractive"
+				dangerouslySetInnerHTML={{
+					__html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-5K5X5N8BWJ', {
+                  page_path: window.location.pathname,
+                  });
+                  `
+				}}
+			/>
 		</>
 	);
 }
