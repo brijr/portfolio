@@ -57,7 +57,7 @@ export default function Home() {
 					</p>
 					<p>
 						I believe the combination and collaboration of design, code, technology, and marketing
-						leads to powerful products, impactful websites, and further innovation.
+						leads to powerful products, impactful digital experiences, and further innovation.
 					</p>
 					<div className="my-12 lg:w-3/4">
 						<Image src={venn} alt="Venn diagram of Bridger Tower's Favorite Place" />
