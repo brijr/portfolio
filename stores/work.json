@@ -7,6 +7,12 @@
       "year": 2023
     },
     {
+      "name": "Ampry",
+      "url": "https://ampry.webflow.io",
+      "technology": "Webflow, Figma",
+      "year": 2023
+    },
+    {
       "name": "SoCal Flights",
       "url": "https://socal.flights",
       "technology": "Rapid API, Next.js, React, Tailwind, Vercel",
