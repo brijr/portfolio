@@ -76,6 +76,14 @@ export default async function Design() {
 
 				<div className="lg:max-w-screen-md mb-12 md:mb-24 md:mt-24">
 					<Projects />
+					<a
+						className="w-full my-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-slate-700 hover:text-slate-200 border-slate-700 border-2"
+						href="https://bridger.info"
+						rel="noreferrer"
+						target="_blank"
+					>
+						See my Product Design Portfolio &rarr;
+					</a>
 				</div>
 				{/* Dribbble section */}
 				<div className="lg:max-w-screen-md">

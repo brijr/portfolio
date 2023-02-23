@@ -62,6 +62,14 @@ export default function Home() {
 					<div className="my-12 lg:w-3/4">
 						<Image src={venn} alt="Venn diagram of Bridger Tower's Favorite Place" />
 					</div>
+					<a
+						className="w-full my-16 text-xl h-32 lg:h-48 flex font-semibold items-end rounded-lg p-6 transition-all hover:text-slate-800 hover:bg-slate-200 border-slate-200 border-2"
+						href="https://bridger.info"
+						rel="noreferrer"
+						target="_blank"
+					>
+						See my Product Design Portfolio &rarr;
+					</a>
 				</div>
 			</section>
 		</main>
