@@ -16,11 +16,11 @@ export default function Home() {
 					<h1 className="text-6xl mb-12 tracking-in-expand">
 						Bridger Tower{' '}
 						<span className="block text-2xl opacity-75 leading-tight mt-4">
-							Product Designer / Frontend Developer
+							Designer and Developer
 						</span>
 					</h1>
 					<h2 className="hidden text-2xl mb-4">
-						Front End Developer :: Product Designer :: Creative Technologist :: Brand Strategist
+						Marketing Designer :: Web Developer :: Product Fanatic :: Creative Technologist :: Brand Strategist
 					</h2>
 				</div>
 			</section>
