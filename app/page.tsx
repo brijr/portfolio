@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 // Components
 import Cards from '@/components/Cards';
+import Library from '@/components/Library';
 
 // Image Imports
 import venn from '@/public/venn.png';
@@ -20,7 +21,8 @@ export default function Home() {
 						</span>
 					</h1>
 					<h2 className="hidden text-2xl mb-4">
-						Marketing Designer :: Web Developer :: Product Fanatic :: Creative Technologist :: Brand Strategist
+						Marketing Designer :: Web Developer :: Product Fanatic :: Creative Technologist :: Brand
+						Strategist
 					</h2>
 				</div>
 			</section>
@@ -69,6 +71,13 @@ export default function Home() {
 						target="_blank"
 					>
 						See my Product Design Portfolio &rarr;
+					</a>
+				</div>
+				<div className="lg:max-w-screen-md">
+					<Library />
+					<p>&rarr; Thanks for visiting!</p>
+					<a className="block" href="https://github.com/brijr/portfolio">
+						&rarr; Check out the Source Code for this portfolio here!
 					</a>
 				</div>
 			</section>

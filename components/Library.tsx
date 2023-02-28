@@ -54,11 +54,11 @@ export default function Library() {
 		<section className="py-24">
 			<h2 className="text-3xl font-medium mb-6">From the Library</h2>
 			<p className="mb-6">The books and ideas that shape my design philosophy.</p>
-			<ul className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+			<ul className="grid grid-cols-2 lg:grid-cols-3 gap-4">
 				{books.map((book) => (
 					<li
 						key={book.name}
-						className="p-6 rounded-lg bg-slate-100 hover:bg-slate-300 transition-all duration-500 shadow-lg"
+						className="p-6 rounded-lg bg-slate-500 hover:bg-slate-300 hover:text-slate-700 transition-all duration-500 shadow-lg"
 					>
 						<a
 							href={book.link}
@@ -69,7 +69,7 @@ export default function Library() {
 							<div>
 								<img className="h-36 mb-6" src={book.coverImage} alt="Book Cover" />
 							</div>
-							<p className="text-xl lg:h-12 mb-4">{book.name}</p>
+							<p className="text-lg lg:h-12 mb-4">{book.name}</p>
 						</a>
 					</li>
 				))}
