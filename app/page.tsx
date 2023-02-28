@@ -4,6 +4,7 @@ import Link from 'next/link';
 // Components
 import Cards from '@/components/Cards';
 import Library from '@/components/Library';
+import Testimonials from '@/components/Testimonials';
 
 // Image Imports
 import venn from '@/public/venn.png';
@@ -75,6 +76,7 @@ export default function Home() {
 				</div>
 				<div className="lg:max-w-screen-md">
 					<Library />
+					<Testimonials />
 					<p>&rarr; Thanks for visiting!</p>
 					<a className="block" href="https://github.com/brijr/portfolio">
 						&rarr; Check out the Source Code for this portfolio here!
