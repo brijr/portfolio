@@ -76,6 +76,9 @@ export default function Home() {
 				</div>
 				<div className="lg:max-w-screen-md">
 					<Library />
+				</div>
+				<div className="lg:max-w-screen-md">
+
 					<Testimonials />
 					<p>&rarr; Thanks for visiting!</p>
 					<a className="block" href="https://github.com/brijr/portfolio">

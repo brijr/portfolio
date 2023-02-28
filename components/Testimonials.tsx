@@ -22,18 +22,19 @@ const testimonials = [
 	},
 	{
 		quote:
-			"Bridger is hands-down one of the most talented (and kind) people I have ever worked with. During our time together on the creative team at Tackle, I had the pleasure of collaborating directly with Bridger on a variety of projects. His 'can-do' attitude and willingness to face any challenge with creative solutions is something rare and so incredibly valuable. Bridger's work ethic goes above and beyond, proving to be a dedicated team member that is always ready and willing to support the needs of others. Bridger is a jack-of-all-trades, bringing both excellent web development skills and innovative design solutions to the table. His love for learning is inspirational, keeping up with the latest and greatest design/web development technology and trends. Any team would be so lucky to have Bridger and would greatly benefit from everything he contributes to a team!",
-		name: 'Mary-Louise Wang',
-		title: 'Graphic Designer',
-		href: 'https://media.licdn.com/dms/image/C5603AQFXaIviygo4hg/profile-displayphoto-shrink_100_100/0/1649254576391?e=1682553600&v=beta&t=w3bPC0ayz6u5mVMpnBdsPtYtWrw2mcUv-S5uSULnl6A'
-	},
-	{
-		quote:
 			'Bridger extremely talented, creative, and analytical. He is flexible, he rolls with the punches and gets things done quickly and thoughtfully. Bridger supported the entire marketing team, through tracking leads, revamping the entire website, and most impressively creating our first-ever interactive page that led to the most views on our annual report for the entire year!',
 		name: 'Michelle Artreche',
 		title: 'Marketing Manager',
 		href: 'https://media.licdn.com/dms/image/D5603AQHI-8qao4Gl1Q/profile-displayphoto-shrink_100_100/0/1676484764671?e=1682553600&v=beta&t=Qi7PiuAjmul2B1um0Q9R6ggfU6pdJsTnLJ_6Y6SHUdM'
+	},
+	{
+		quote:
+			"Bridger is hands-down one of the most talented (and kind) people I have ever worked with. During our time together on the creative team at Tackle, I had the pleasure of collaborating directly with Bridger on a variety of projects. His 'can-do' attitude and willingness to face any challenge with creative solutions is something rare and so incredibly valuable. Bridger's work ethic goes above and beyond, proving to be a dedicated team member that is always ready and willing to support the needs of others. Bridger is a jack-of-all-trades, bringing both excellent web development skills and innovative design solutions to the table. His love for learning is inspirational, keeping up with the latest and greatest design/web development technology and trends. Any team would be so lucky to have Bridger and would greatly benefit from everything he contributes to a team!",
+		name: 'Mary-Louise Wang',
+		title: 'Graphic Designer',
+		href: 'https://media.licdn.com/dms/image/C5603AQFXaIviygo4hg/profile-displayphoto-shrink_100_100/0/1649254576391?e=1682553600&v=beta&t=w3bPC0ayz6u5mVMpnBdsPtYtWrw2mcUv-S5uSULnl6A'
 	}
+	
 ];
 
 export default function Testimonials() {
@@ -46,8 +47,8 @@ export default function Testimonials() {
 						{testimonials.map(
 							(testimonial: { quote: string; name: string; title: string; href: string }) => (
 								<li key={testimonial.name} className="mb-8 sm:break-inside-avoid">
-									<blockquote className="rounded-xl bg-gray-50 p-6 shadow-md">
-										<p className="leading-relaxed text-gray-700">{testimonial.quote}</p>
+									<blockquote className="rounded-xl bg-slate-700 p-6 shadow-md">
+										<p className="leading-relaxed text-slate-200">{testimonial.quote}</p>
 									</blockquote>
 									<div className="mt-4 flex items-center gap-4">
 										<img
