@@ -2,11 +2,11 @@
   "jobs": [
     {
       "company": "Tackle",
-      "title": "Front End Web Developer and Designer",
+      "title": "Marketing Designer and Developer",
       "location": "Remote",
       "href": "https://tackle.io",
       "years": "2022-2023",
-      "description": "As the lead Web Developer and Designer at Tackle, I work on the Marketing Team to manage, maintain, and improve the marketing site. My responsibilities vary at Tackle from DevOps, to Design Systems, to bug fixes, and more. I work mostly with Figma, HTML, CSS, JavaScript, Next JS, React, Tailwind CSS, WordPress, and PHP.",
+      "description": "As the lead Marketing Developer and Designer at Tackle, I work on the Marketing Team to manage, maintain, and improve the marketing site. My responsibilities vary at Tackle from DevOps, to Design Systems, to bug fixes, and more. I work mostly with Figma, HTML, CSS, JavaScript, Next JS, React, Tailwind CSS, WordPress, and PHP.",
       "featuredProjects": [
         {
           "title": "Marketplace Readiness Review",
