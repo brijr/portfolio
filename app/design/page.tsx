@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import { Key } from 'react';
 import Projects from '@/components/Projects';
+import CaseStudies from '@/components/CaseStudies';
 
 var accessToken = '33f6b249840bf29923d747505622fb27fefa014de97c331c2633ae85c2770b36';
 
@@ -75,6 +76,10 @@ export default async function Design() {
 				</div>
 
 				<div className="lg:max-w-screen-md mb-12 md:mb-24 md:mt-24">
+					<CaseStudies />
+				</div>
+
+				{/* <div className="lg:max-w-screen-md mb-12 md:mb-24 md:mt-24">
 					<Projects />
 					<a
 						className="w-full my-12 text-xl h-32 lg:h-48 flex items-end rounded-lg p-6 transition-all hover:bg-slate-700 hover:text-slate-200 border-slate-700 border-2"
@@ -82,9 +87,9 @@ export default async function Design() {
 						rel="noreferrer"
 						target="_blank"
 					>
-						See my Product Design Portfolio &rarr;
+						See my Marketing Design Portfolio &rarr;
 					</a>
-				</div>
+				</div> */}
 				{/* Dribbble section */}
 				<div className="lg:max-w-screen-md">
 					<h3 className="text-4xl mb-6">
